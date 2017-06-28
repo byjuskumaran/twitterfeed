@@ -19,10 +19,10 @@ public class BOneTwitterFeed {
 	public TwitterStream  getStream() {
 		ConfigurationBuilder cb = new ConfigurationBuilder();
 		cb.setDebugEnabled(true);
-		cb.setOAuthConsumerKey("7MSxiet4wcrNAiwazqnpbDir3");
-		cb.setOAuthConsumerSecret("5DTgJgf0XfjmmVRzvgYR13fLp0xlmyjEvdsUuIUsZ3pCfAzGrh");
-		cb.setOAuthAccessToken("13302722-ssXm6Tmr80TtmSWSNrxsYPQtdTemQ9EZNQZ2pS7IJ");
-		cb.setOAuthAccessTokenSecret("LAmSlujPjUrylAp96Z4DRFYCUdaIeHa7Nz7tjCR7aBh81");
+		cb.setOAuthConsumerKey("ADD YOURS");
+		cb.setOAuthConsumerSecret("ADD YOURS");
+		cb.setOAuthAccessToken("ADD YOURS");
+		cb.setOAuthAccessTokenSecret("ADD YOURS");
 		return new TwitterStreamFactory(cb.build()).getInstance();
 	}
 	
